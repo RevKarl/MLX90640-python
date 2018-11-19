@@ -5,7 +5,7 @@ Usage:
 
 import MLX90640
 
-sensor = MLX90640() #can optionally include address as argument, default is 0x33
+sensor = MLX90640.MLX90640() #can optionally include address as argument, default is 0x33
 
 sensor.getCompensatedPixData(i,j) #gets compensated temperature data from chosen pixel from 32x24 pixel array
 
